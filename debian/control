@@ -9,7 +9,18 @@ Package: systemd
 Provides: systemd
 Architecture: all
 Essential: yes
+Dependens: elogind
 Priority: required
 Replaces: elogind
+Description: dummy systemd package
+ dummy package
+
+Package: systemd-sysv
+Provides: systemd-sysv
+Dependens: sysvinit-core
+Architecture: all
+Essential: yes
+Priority: required
+Replaces: sysvinit-core
 Description: dummy systemd package
  dummy package
