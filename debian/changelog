@@ -1,0 +1,5 @@
+systemd (9999-noupdate) devuan; urgency=medium
+
+  * init
+
+ -- Ali Riza KESKIN <parduscix@yandex.ru>  Mon, 16 Nov 2020 23:29:56 +0000
